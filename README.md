@@ -10,6 +10,8 @@ At that altitude it will continue to loiter until it is heading into the wind, t
 
 This is currently untested on a real plane due to lack of time.
 A detailed test is still necessary:
+- RTL_AUTOLAND=0
+- _no_ DO_LAND mission set up
 - ensure your plane does glide well enough in FBWA at 0 throttle
 - set to loiter, cut throttle and switch to FBWA and see how it behaves - thats the final slope approach
 - test your RTL settings by RTL>loiter via switch
